@@ -1,0 +1,101 @@
+/* styling in website */
+.main{
+    width: 100%;
+   
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main img{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -8px;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    /* background-color: grey; */
+    
+}
+.header img{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    top: 8px;
+   
+}
+.header ul{
+   list-style-type: none;
+  margin-top: 0px;
+  display: flex;
+}
+.header ul li{
+    margin-top: 10px;
+}
+.header ul li a{
+    text-decoration: none;
+    padding: 25px 25px;
+}
+.heading{
+   text-align: center;
+   color: white;
+   margin-top: -100px;
+}
+.heading button{
+    color: white;
+    background-color: black;
+    border-radius: 25%;
+}
+.services{
+    margin-top: 280px;
+    text-align: center;
+
+}
+.service img{
+    height: 10px;
+    width: 10px;
+    color: red;
+    
+    }
+.order{
+    height: 400px;
+    width: 30%;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    background-color: antiquewhite;
+
+}
+ .order img{
+    height: 273px;
+    width: 254px;
+    
+    padding: -8px;
+    z-index: 2;
+
+}
+.order p{
+    
+    margin-top: -14px;
+
+}
+.order h1{
+    margin-top: 267px;
+    text-align: center;
+}
+.client h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact{
+    background: url(https://st2.depositphotos.com/1826664/5444/i/950/depositphotos_54440289-stock-photo-contact-us-background-pattern-blue.jpg);
+}
+.contact form{
+    margin-top: 513px;
+    padding-left: 308px;
+}
+
+
