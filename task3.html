@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform & transition</title>
+    <style>
+        .main{
+            margin:150px;
+            height: 466px;
+             width: 481px;
+            border: 2px solid black;
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/02/50/63/71577e1cf59d802.jpg");
+        }
+        .main:hover{
+            transform: scale(0.8);
+            transition: 5s;
+        }
+        .one{
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            margin: 9px;
+           
+         }
+        
+        .one:hover{
+          
+            transform: rotate(90deg);
+            transition: 2s;
+        }
+        .two{
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            margin: -10px;
+            box-sizing: border-box;
+            margin-left: 163px;
+            background-image: url("");
+           }
+        
+        
+        .two:hover{
+            transform: rotate(180deg);
+            
+            transition: 2s;
+        }
+        .three{
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            margin: 10px;
+            margin-left: 312px;
+        }
+        
+        .three:hover{
+            transform: rotate(270deg);
+            transform: preserve-3d;
+            transition: 2s;
+        }
+        .four{
+            height: 150px;
+            width: 150px;
+           
+            border: 2px solid black;
+            margin: 10px;
+            /* margin-left: 312px; */
+            transform: rotate(401deg);
+    transform-origin: 746% 182%;
+            
+        }
+        .four:hover{
+            transition: 5s;
+            transform: skew(35deg);
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MiFUG_T0e-dq-9Y9VuyxagcHEyjvhOwwc0VGsnWAJe6h8X5s-LkEGdiM3vu8bgP01k4&usqp=CAU" alt="" height="150px" width="150px"></div>
+        <div class="two"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc85GS7z769ITq8g2k0zC7LQO3A8bf64FZNQ&usqp=CAU" alt="" height="150px" width="150px"></div>
+        <div class="three"><img src="https://www.awn.com/sites/default/files/styles/large_featured/public/image/featured/1050898-view-conference-2019-celebrating-best-animation-vfx-and-visual-storytelling.jpg?itok=HcTq6cXP" alt="" height="150px" width="150px"></div>
+        <div class="four"><img src="https://cdn.pixabay.com/photo/2018/10/08/13/05/hindu-3732713__480.jpg" alt="" height="150px" width="150px"></div>
+    </div>
+</body>
+</html>

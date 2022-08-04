@@ -46,8 +46,12 @@ body{
 }
 .heading button{
     color: white;
-    background-color: black;
-    border-radius: 25%;
+    background-color: rgb(42, 15, 161);
+    border-radius: 5%;
+    height: 45px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
 }
 .services{
     margin-top: 280px;
