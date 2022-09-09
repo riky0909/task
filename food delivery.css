@@ -1,4 +1,5 @@
 /* styling in website */
+
 .main{
     width: 100%;
    
@@ -75,7 +76,7 @@ body{
 }
  .order img{
     height: 273px;
-    width: 254px;
+    width:30%;
     
     padding: -8px;
     z-index: 2;
@@ -101,5 +102,27 @@ body{
     margin-top: 513px;
     padding-left: 308px;
 }
-
-
+/* media query apply */
+@media only screen and (max-width:600px)
+{
+.main{
+    width: 100%;
+}
+.order{
+ width: 100%;
+}
+ .order img{
+ width: 100%;
+}
+}
+@media only screen and (max-width:1200px){
+    .main{
+        width: 100%;
+    }
+    .order{
+     width: 100%;
+    }
+     .order img{
+     width: 100%;
+    }  
+}
